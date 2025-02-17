@@ -61,9 +61,16 @@
     align-items: center;
     text-align: center;
     color: white;
-    
+
+    width: 100%; /* A div ocupa 100% da largura da tela */
+    overflow: hidden; /* Esconde qualquer parte da imagem que ultrapasse a div */
+
   }
-  
+  .hero img {
+    width: 100%; /* A imagem ocupa 100% da largura da div */
+    height: auto; /* Mantém a proporção da imagem */
+    display: block; /* Remove o espaço em branco abaixo da imagem */
+}
   .hero h2 {
     font-size: 3rem;
     margin-bottom: 20px;
